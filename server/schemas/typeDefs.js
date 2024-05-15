@@ -3,6 +3,7 @@ const typeDefs = `
     _id: ID
     username: String
     email: String
+    bookCount: Int
     password: String
     savedBooks: [Book]!
   }
@@ -17,23 +18,12 @@ const typeDefs = `
     title: String
   }
 
-  type Comment {
-    _id: ID
-    commentText: String
-    commentAuthor: String
-    createdAt: String
-  }
-
   type Auth {
     token: ID!
     user: User
   }
 
   type Query {
-    users: [User]
-    user(username: String!): User
-    thoughts(username: String): [Thought]
-    thought(thoughtId: ID!): Thought
     me: User
   }
 
