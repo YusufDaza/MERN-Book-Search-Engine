@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "@apollo/server": "^4.10.4",
-    "graphql": "^16.8.1"
+    "graphql": "^16.8.1",
+    "node.js": "^0.0.1-security",
+    "react": "^18.3.1"
   }
 }
