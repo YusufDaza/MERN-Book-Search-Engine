@@ -16,21 +16,31 @@
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+1. Install `node.js` and `npm` on your terminal command.
+2. Navigate to the cloned repository directory.
+3. Type `npm install` to install all dependencies listed in the packege.json file.
+4. Create a new database(MongoDB).
+5. Type `npm start` and the server will be running at `http://localhost3000`.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+1. Open a web browser and navigate to the URL where the book search engine is hosted.
+2. Type a search term(e.g, book title, author, keyword) in the input field.
+3. Click the "Login/Signup" menu option. If you have an account, select "Login", enter your email address and password. If you don't have an account, select "Signup", enter username, email and password.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+## Screenshot
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+    
+![alt text](Assets/Screenshot00.png)
+![](Assets/Screenshot01.png)
+![](Assets/Screenshot02.png)
+
 
 ## Features
 
-If your project has a lot of features, list them here.
+<a href="https://www.mongodb.com/">MongoDB</a>
+
+<a href="https://render.com/">Render</a>
 
 ## MIT License
 

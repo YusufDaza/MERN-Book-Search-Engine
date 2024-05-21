@@ -1,6 +1,6 @@
 import {gql} from '@apollo/client'
 
-export const QUERY_DAZA=gql`
+export const QUERY_ME=gql`
 query Daza {
     daza {
       _id
